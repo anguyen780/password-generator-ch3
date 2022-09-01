@@ -26,7 +26,7 @@ function generatePassword() {
     } 
     else {
         alert("Password length must be a number between 8-128");
-        return;
+        return '';
     }
     var confirmUpper = confirm('Would you like to include uppercase characters?');
     if (confirmUpper){
