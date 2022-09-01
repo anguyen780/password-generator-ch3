@@ -22,7 +22,6 @@ function generatePassword() {
     var generatedPassword = '';
     var passLength = prompt("How long would you like your password? Must be a number between 8-128");
     if ((parseInt(passLength) >= 8) && (parseInt(passLength) <= 128)){
-
     } 
     else {
         alert("Password length must be a number between 8-128");
